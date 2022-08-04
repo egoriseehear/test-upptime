@@ -169,16 +169,20 @@ status-website:
     margin: 0 1rem;
 }
   '
+  
+i18n:
+  footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org)
+  
         
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo
+  introMessage: sample
+#   navbar: name there
   cname: amenitylab.org
   # baseUrl: /your-repo-name
 #   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
 #   name: Uptime
   introTitle: Up Time Check!
-  introMessage: sample
-#   navbar:
 #     - title: Status
 #       href: /
 #     - title: GitHub
