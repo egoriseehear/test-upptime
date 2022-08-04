@@ -175,8 +175,8 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: amenitylab.org
   # baseUrl: /your-repo-name
-  logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
-  name: Uptime
+#   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
+#   name: Uptime
   introTitle: Up Time Check!
   introMessage: sample
 #   navbar:
