@@ -168,6 +168,54 @@ status-website:
 .navbar-light .navbar-nav .nav-link {
     margin: 0 1rem;
 }
+
+.footer {
+    background: $backgrond;
+    padding: 2rem 0;
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+        padding: 3rem 1.5rem;
+        .contactInfo {
+            max-width: 28rem;
+            flex: 1 1 25rem;
+            .subCaption {
+                color: white;
+            }
+            .text {
+                color: white;
+                margin: 1rem 0;
+            }
+        }
+    }
+    .bottomLink {
+        padding: 0 1.5rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        .text {
+            color: white;
+        }
+    }
+}
+
+.iseehearImg {
+    width: 100%;
+    max-width: 60rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.cloud-footer {
+    background: linear-gradient(-3.59deg, #6888C8 -1.57%, #5A98F2 166.96%);
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    max-width: 60rem !important;
+}
   '
   
 i18n:
