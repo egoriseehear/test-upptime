@@ -8,86 +8,88 @@ sites:
 
 status-website:
 
-  customBodyHtml: "<nav class="navbar navbar-expand-lg navbar-light myHeader">
-                <button class="errowScrol">
-                    <svg width="46" height="51" viewBox="0 0 46 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.9991 6.1891L20.4638 2.46865L22.9424 0.781072L25.4559 2.42151L22.9991 6.1891ZM27.9185 46.1444C27.9446 48.6296 25.9511 50.6632 23.4659 50.6867C20.9807 50.7101 18.945 48.7145 18.9189 46.2294L27.9185 46.1444ZM0.604546 15.9901L20.4638 2.46865L25.5344 9.90956L5.67518 23.431L0.604546 15.9901ZM25.4559 2.42151L45.5948 15.5653L40.6813 23.1005L20.5423 9.95669L25.4559 2.42151ZM27.4989 6.14662L27.9185 46.1444L18.9189 46.2294L18.4993 6.23159L27.4989 6.14662Z" fill="#67C3F3" fill-opacity="0.65"/>
-                    </svg>
-                </button>
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/"><img class="logo" src="img/iseehear-logo.png" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                        <ul class="navbar-nav dropDownBox">
-                            <li class="nav-item">
-                                <a class="nav-link text text-hover fw-bold dashboard" href="https://amenitylab.org/">
-                                    Status Dashboard
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text text-hover fw-bold" href="/security-summary" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Data Security
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="text" href="/security-overview">Security Overview</a></li>
-                                    <li><a class="text" href="/softmouse-encryption">Softmouse Encryption</a></li>
-                                    <li><a class="text" href="/malware-detection">Malware Detection</a></li>
-                                    <li><a class="text" href="/password-management">Password Management</a></li>
-                                    <li><a class="text" href="/data-backup">Data Backup</a></li>
-                                    <li><a class="text" href="/disaster-recovery-research-continuity">Disaster Recovery</a></li>
-                                    <li><a class="text" href="/google-cloud-platform">Google Cloud Platform</a></li>
-                                    <li><a class="text" href="/whois-verification-authentication">WHOIS Verification & Authentication</a></li>
-                                    <li><a class="text" href="/browsers-support">Supported Internet Browsers</a></li>
-                                    <li><a class="text" href="/security-hygiene-tips">Security Hygiene Tips</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text text-hover fw-bold" href="/security-summary" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Policies
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="text" href="/policiesOverview">Iseehear Policies Overview</a></li>
-                                    <li><a class="text" href="/privacyPolicy">Iseehear Privacy Policy (Full Version)</a></li>
-                                    <li><a class="text" href="/termsOfUse">Iseehear Terms of Use</a></li>
-                                    <li><a class="text" href="/cookiePolicy">Iseehear Cookie Policy</a></li>
-                                    <li><a class="text" href="/emailPolicy">Iseehear Email Policy Notice</a></li>
-                                    <li><a class="text" href="/intellectualProperty">Iseehear Intellectual Property Research Data Rights Policy</a></li>
-                                    <li><a class="text" href="/freeTrialPolicy">Iseehear Free Trial Policy<a></li>
-                                    <li><a class="text" href="/copyright">Iseehear Copyright Policy</a></li>
-                                    <li><a class="text" href="/trademark">Iseehear Trademark Notice</a></li>
-                                    <li><a class="text" href="/betaSiteAgreement">Iseehear Beta Site Agreement</a></li>
-                                    <li><a class="text" href="/subscriptionAgreement">Iseehear Subscription Agreement</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text text-hover fw-bold" href="/communication-resources" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Communications
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="text" href="softmouse-upgrade-maintenance">Scheduled Upgrades And System Maintenance Procedures</a></li>
-                                    <li><a class="text" href="softmouse-emergency-maintenance">Emergency Upgrades And System Maintenance Procedures</a></li>
-                                    <li><a class="text" href="information-resources">Information Resource Links</a></li>
-                                    <li><a class="text" href="contact-us">Contact us Resources</a></li>
-                                    <li><a class="text" href="contactForm">Contact Us Web Form</a></li>
-                                    <li><a class="text" href="/newPage">new Page</a></li>
-                                </ul>
-                            </li>
-                            
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text text-hover fw-bold emergensy-planing" href="/emergency-plan" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Emergency
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="text" href="how-you-can-prepare">How you can prepare</a></li>
-                                    <li><a class="text" href="how-we-are-prepared">How we are prepared</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-        </nav>"
+  customBodyHtml: "
+  <nav class="navbar navbar-expand-lg navbar-light myHeader">
+    <button class="errowScrol">
+        <svg width="46" height="51" viewBox="0 0 46 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.9991 6.1891L20.4638 2.46865L22.9424 0.781072L25.4559 2.42151L22.9991 6.1891ZM27.9185 46.1444C27.9446 48.6296 25.9511 50.6632 23.4659 50.6867C20.9807 50.7101 18.945 48.7145 18.9189 46.2294L27.9185 46.1444ZM0.604546 15.9901L20.4638 2.46865L25.5344 9.90956L5.67518 23.431L0.604546 15.9901ZM25.4559 2.42151L45.5948 15.5653L40.6813 23.1005L20.5423 9.95669L25.4559 2.42151ZM27.4989 6.14662L27.9185 46.1444L18.9189 46.2294L18.4993 6.23159L27.4989 6.14662Z" fill="#67C3F3" fill-opacity="0.65"/>
+        </svg>
+    </button>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img class="logo" src="img/iseehear-logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav dropDownBox">
+                <li class="nav-item">
+                    <a class="nav-link text text-hover fw-bold dashboard" href="https://amenitylab.org/">
+                        Status Dashboard
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text text-hover fw-bold" href="/security-summary" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Data Security
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="text" href="/security-overview">Security Overview</a></li>
+                        <li><a class="text" href="/softmouse-encryption">Softmouse Encryption</a></li>
+                        <li><a class="text" href="/malware-detection">Malware Detection</a></li>
+                        <li><a class="text" href="/password-management">Password Management</a></li>
+                        <li><a class="text" href="/data-backup">Data Backup</a></li>
+                        <li><a class="text" href="/disaster-recovery-research-continuity">Disaster Recovery</a></li>
+                        <li><a class="text" href="/google-cloud-platform">Google Cloud Platform</a></li>
+                        <li><a class="text" href="/whois-verification-authentication">WHOIS Verification & Authentication</a></li>
+                        <li><a class="text" href="/browsers-support">Supported Internet Browsers</a></li>
+                        <li><a class="text" href="/security-hygiene-tips">Security Hygiene Tips</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text text-hover fw-bold" href="/security-summary" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Policies
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="text" href="/policiesOverview">Iseehear Policies Overview</a></li>
+                        <li><a class="text" href="/privacyPolicy">Iseehear Privacy Policy (Full Version)</a></li>
+                        <li><a class="text" href="/termsOfUse">Iseehear Terms of Use</a></li>
+                        <li><a class="text" href="/cookiePolicy">Iseehear Cookie Policy</a></li>
+                        <li><a class="text" href="/emailPolicy">Iseehear Email Policy Notice</a></li>
+                        <li><a class="text" href="/intellectualProperty">Iseehear Intellectual Property Research Data Rights Policy</a></li>
+                        <li><a class="text" href="/freeTrialPolicy">Iseehear Free Trial Policy<a></li>
+                        <li><a class="text" href="/copyright">Iseehear Copyright Policy</a></li>
+                        <li><a class="text" href="/trademark">Iseehear Trademark Notice</a></li>
+                        <li><a class="text" href="/betaSiteAgreement">Iseehear Beta Site Agreement</a></li>
+                        <li><a class="text" href="/subscriptionAgreement">Iseehear Subscription Agreement</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text text-hover fw-bold" href="/communication-resources" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Communications
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="text" href="softmouse-upgrade-maintenance">Scheduled Upgrades And System Maintenance Procedures</a></li>
+                        <li><a class="text" href="softmouse-emergency-maintenance">Emergency Upgrades And System Maintenance Procedures</a></li>
+                        <li><a class="text" href="information-resources">Information Resource Links</a></li>
+                        <li><a class="text" href="contact-us">Contact us Resources</a></li>
+                        <li><a class="text" href="contactForm">Contact Us Web Form</a></li>
+                        <li><a class="text" href="/newPage">new Page</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text text-hover fw-bold emergensy-planing" href="/emergency-plan" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Emergency
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="text" href="how-you-can-prepare">How you can prepare</a></li>
+                        <li><a class="text" href="how-we-are-prepared">How we are prepared</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  "
         
         
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
