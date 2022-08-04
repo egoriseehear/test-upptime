@@ -10,7 +10,7 @@ status-website:
 
   links:
     - rel: stylesheet
-      href: https://amenitylab.org/my_scss/main.scss
+      href: https://amenitylab.org/my_scss/main.css
 
   customBodyHtml: '
 <head>
