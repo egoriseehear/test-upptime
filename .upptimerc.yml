@@ -87,7 +87,7 @@ status-website:
                         </ul>
                     </div>
                 </div>
-        </nav></body>
+        </nav>
         
   css: ".errowScrol {
     position: fixed;
