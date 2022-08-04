@@ -101,7 +101,7 @@ status-website:
 <script src="js/scrol.js"></script>
 '
   css: '
-  .errowScrol {
+.errowScrol {
     position: fixed;
     right: 10px;
     top: 400px;
@@ -130,20 +130,17 @@ status-website:
     box-shadow: 0px 4px 18px rgb(88 126 236 / 25%) !important;
     left: auto !important;
     padding: 1rem;
-}
-
-.text {
-    line-height: 2rem !important;
-    color: white;
-}
-
-li {
-    margin-bottom: 1rem;
-    margin-bottom: 1rem;
-    background-color: lightblue;
-    padding: 5px;
-    border-radius: 1rem;
-        
+    & li {
+        margin-bottom: 1rem;
+        margin-bottom: 1rem;
+        background-color: lightblue;
+        padding: 5px;
+        border-radius: 1rem;
+        .text {
+            line-height: 2rem !important;
+            color: white;
+        }
+    }
 }
 
 .dropdown, .dropend, .dropstart, .dropup {
@@ -171,6 +168,7 @@ li {
 .navbar-light .navbar-nav .nav-link {
     margin: 0 1rem;
 }
+
   '
         
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
