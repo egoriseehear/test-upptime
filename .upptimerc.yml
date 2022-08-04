@@ -169,7 +169,8 @@ status-website:
 }
 '
   
-i18n: '
+i18n: 
+  footer: '
         <footer class="footer">
                         <div class="container">
                             <div class="contactInfo">
