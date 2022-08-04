@@ -12,9 +12,9 @@ status-website:
     - rel: stylesheet
       href: https://amenitylab.org/my_scss/main.css
       
-    scripts:
-    - src: https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js
-      async: true
+  scripts:
+  - src: https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js
+    async: true
 
   customBodyHtml: '
 <head>
