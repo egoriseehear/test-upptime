@@ -8,7 +8,7 @@ sites:
 
 status-website:
 
-  customHeadHtml: <head>
+  customHeadHtml: <body>
             <nav class="navbar navbar-expand-lg navbar-light myHeader">
                 <button class="errowScrol">
                     <svg width="46" height="51" viewBox="0 0 46 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,9 +89,9 @@ status-website:
                     </div>
                 </div>
         </nav>
-  </head>
+  </body>
 
-scss: ".errowScrol {
+css: ".errowScrol {
     position: fixed;
     right: 10px;
     top: 400px;
