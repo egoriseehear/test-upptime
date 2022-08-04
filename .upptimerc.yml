@@ -9,8 +9,6 @@ sites:
 status-website:
 
   customBodyHtml: '
-<!DOCTYPE html>
-<html lang="en" style="font-size: 10px">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,9 +18,6 @@ status-website:
     <link rel="stylesheet" href="scss/main.css">
     <title>Subscription Agreement</title>
 </head>
-<body>
-
-<div class="wrapper">
 <nav class="navbar navbar-expand-lg navbar-light myHeader">
     <button class="errowScrol">
         <svg width="46" height="51" viewBox="0 0 46 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,8 +98,6 @@ status-website:
         </div>
     </div>
 </nav>
-</div>
-</body>
 <script src="js/scrol.js"></script>
 '
   css: '
@@ -175,7 +168,6 @@ status-website:
 .navbar-light .navbar-nav .nav-link {
     margin: 0 1rem;
 }
-
   '
         
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
