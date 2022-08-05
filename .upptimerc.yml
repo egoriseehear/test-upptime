@@ -52,7 +52,6 @@ status-website:
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Subscription Agreement</title>
 </head>
-<body>
 <nav class="navbar navbar-expand-lg navbar-light myHeader">
     <button class="errowScrol">
         <svg width="46" height="51" viewBox="0 0 46 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -133,7 +132,6 @@ status-website:
         </div>
     </div>
 </nav>
-</body>
 '
   
 i18n: 
