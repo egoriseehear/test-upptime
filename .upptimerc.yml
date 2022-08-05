@@ -23,6 +23,9 @@ status-website:
     margin-top: 5rem;
     margin-bottom: 5rem; 
   }
+  .article.degraded {
+    margin: 5rem 0;
+  }
   '
 
   customBodyHtml: '
