@@ -17,6 +17,8 @@ status-website:
     async: true
 
   customBodyHtml: '
+<!DOCTYPE html>
+<html lang="en" style="font-size: 10px;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
