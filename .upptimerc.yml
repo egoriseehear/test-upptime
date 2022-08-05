@@ -40,7 +40,7 @@ status-website:
     padding: 1rem !important;
   }
   .dropdown, .dropend, .dropstart, .dropup {
-    position: static;
+    position: static !important;
   }
   '
 
