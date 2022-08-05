@@ -32,6 +32,14 @@ status-website:
   a {
     text-decoration: none !important;
   }
+  body {
+    font-family: 'Mulish', sans-serif;
+    background-color: $backgroundBody;
+  }
+
+  .container {
+      padding: 0 15px;
+  }
   '
 
   customBodyHtml: '
