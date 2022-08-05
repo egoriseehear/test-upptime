@@ -42,6 +42,15 @@ status-website:
   .dropdown, .dropend, .dropstart, .dropup {
     position: static !important;
   }
+  article.graph.svelte-fqsq6s.svelte-fqsq6s.svelte-fqsq6s {
+    margin: 5rem 0 !important;
+  }
+  '
+  
+  js: '
+  document.querySelector('.errowScrol').onclick = () => {
+    window.scrollTo(pageYOffset,0);
+  };
   '
 
   customBodyHtml: '
