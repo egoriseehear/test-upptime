@@ -46,6 +46,9 @@ status-website:
   article.graph.svelte-fqsq6s.svelte-fqsq6s.svelte-fqsq6s {
     margin: 5rem 0 !important;
   }
+  body {
+  font-family: 'Mulish', sans-serif;
+  }
   '
 
   customBodyHtml: '
@@ -60,7 +63,7 @@ status-website:
     <link rel="stylesheet" href="scss/main.css">
     <title>softmouse-encryption</title>
 </head>
-<body style="font-family: 'Mulish', sans-serif;">
+<body>
 
 <div class="wrapper">
 <nav class="navbar navbar-expand-lg navbar-light myHeader">
