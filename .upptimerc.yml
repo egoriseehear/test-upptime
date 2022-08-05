@@ -24,7 +24,7 @@ status-website:
     margin-bottom: 5rem; 
   }
   .article.degraded {
-    margin: 5rem 0;
+    margin: 5rem 0 !important;
   }  
   ol, ul {
     list-style: none !important;
