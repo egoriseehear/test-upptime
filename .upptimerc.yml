@@ -60,7 +60,7 @@ status-website:
     <link rel="stylesheet" href="scss/main.css">
     <title>softmouse-encryption</title>
 </head>
-<body>
+<body style="font-family: 'Mulish', sans-serif;">
 
 <div class="wrapper">
 <nav class="navbar navbar-expand-lg navbar-light myHeader">
