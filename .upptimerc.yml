@@ -39,6 +39,9 @@ status-website:
     left: auto !important;
     padding: 1rem !important;
   }
+  .dropdown, .dropend, .dropstart, .dropup {
+    position: static;
+  }
   '
 
   customBodyHtml: '
