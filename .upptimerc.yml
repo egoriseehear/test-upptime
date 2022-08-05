@@ -24,11 +24,6 @@ status-website:
     margin-bottom: 5rem; 
   }
   '
-  js: '
-    document.querySelector('.errowScrol').onclick = () => {
-    window.scrollTo(pageYOffset,0);
-    };
-    '
 
   customBodyHtml: '
 <!DOCTYPE html>
