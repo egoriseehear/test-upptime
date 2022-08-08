@@ -11,6 +11,8 @@ status-website:
   links:
     - rel: stylesheet
       href: https://amenitylab.org/my_scss/main.css
+  links:
+    - rel: stylesheet
       href: https://amenitylab.org/my_js/scrol.js
       
   scripts:
