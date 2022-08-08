@@ -68,7 +68,7 @@ status-website:
 <div class="wrapper">
 <nav class="navbar navbar-expand-lg navbar-light myHeader">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img class="logo" src="img/iseehear-logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="/"><img class="logo" src="/amenitylab.org/img/iseehear-logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -193,8 +193,8 @@ i18n:
                                 <p class="text">Toll Free: 1 844 559 6322</p>
                             </div>
                         </div>
-                        <a href="http://www.iseehear.com" target="_blank" rel="nofollow"> <img src="img/iseehear-cloud-0005.png" class="img-responsive cloud-footer"></a>
-                        <img src="img/iseehear-health-check-0002.png" class="iseehearImg">
+                        <a href="http://www.iseehear.com" target="_blank" rel="nofollow"> <img src="/amenitylab.org/img/iseehear-cloud-0005.png" class="img-responsive cloud-footer"></a>
+                        <img src="/amenitylab.org/img/iseehear-health-check-0002.png" class="iseehearImg">
                         <div class="bottomLink">
                             <p class="text">2000 - 2019 Iseehear Inc. All rights reserved.</p>
                             <a target="_blank" href="http://www.iseehear.com/privacy.php" class="text" rel="nofollow">Privacy Policy</a> 
