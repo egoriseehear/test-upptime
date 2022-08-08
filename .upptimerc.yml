@@ -12,7 +12,7 @@ status-website:
     - rel: stylesheet
       href: https://amenitylab.org/my_scss/main.css
 
-  js: 'document.querySelector('.errowScrol').onclick = () => {window.scrollTo(pageYOffset,0);};'
+  js: "document.querySelector('.errowScrol').onclick = () => {window.scrollTo(pageYOffset,0);};"
       
   scripts:
   - src: https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js
