@@ -17,6 +17,12 @@ status-website:
     href: https://amenitylab.org/my_js/scrol.js
     async: true
     
+  js: '
+      document.querySelector('.errowScrol').onclick = () => {
+        window.scrollTo(pageYOffset,0);
+      };
+  '
+    
   css: '
   .container { 
     font-size: 25px !important;
@@ -146,6 +152,7 @@ status-website:
         </div>
     </div>
 </nav>
+<script src="js/scrol.js"></script>
 '
   
 i18n: 
