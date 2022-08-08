@@ -17,11 +17,11 @@ status-website:
     href: https://amenitylab.org/my_js/scrol.js
     async: true
     
-  js: '
-      document.querySelector('.errowScrol').onclick = () => {
-        window.scrollTo(pageYOffset,0);
-      };
-  '
+#   js: '
+#       document.querySelector('.errowScrol').onclick = () => {
+#         window.scrollTo(pageYOffset,0);
+#       };
+#   '
     
   css: '
   .container { 
