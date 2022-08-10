@@ -208,12 +208,13 @@ i18n:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo
   introMessage: sample
-  navbar: name there
+#   navbar: name there
   cname: amenitylab.org
 #   baseUrl: /test-upptime
 #   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
 #   name: Uptime
   introTitle: Up Time Check!
+  navbar:
     - title: Status
       href: /
     - title: GitHub
