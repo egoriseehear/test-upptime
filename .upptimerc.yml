@@ -223,7 +223,7 @@ status-website:
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 
-customBodyHtml: '
+footer: '
         <footer class="footer">
                         <div class="container">
                             <div class="contactInfo">
