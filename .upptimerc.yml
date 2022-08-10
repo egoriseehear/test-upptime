@@ -9,6 +9,8 @@ sites:
 status-website:
 
   links:
+    - name: Google
+    url: https://www.google.com
     - rel: stylesheet
       href: https://amenitylab.org/my_scss/main.css
       
