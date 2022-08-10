@@ -210,7 +210,7 @@ i18n:
   introMessage: sample
 #   navbar: name there
   cname: amenitylab.org
-  baseUrl: /test-upptime
+#   baseUrl: /test-upptime
 #   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
 #   name: Uptime
   introTitle: Up Time Check!
