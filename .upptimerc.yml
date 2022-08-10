@@ -144,87 +144,8 @@ status-website:
 <script src="js/scrol.js"></script>
 '
   
-# i18n:
-#   footer: '
-#         <footer class="footer">
-#                         <div class="container">
-#                             <div class="contactInfo">
-#                                 <h2 class="subCaption">Support and Security</h2>
-#                             </div>
-                            
-#                             <div class="contactInfo">
-#                                 <h2 class="subCaption">Corporate Websites</h2>
-#                                 <ul>
-#                                     <li>
-#                                         <a href="https://www.iseehear.info" target="_blank">
-#                                             <p class="text">Iseehear.INFO</p>
-#                                         </a>
-#                                     </li>
-#                                     <li>
-#                                         <a href="http://www.iseehear.com" target="_blank" rel="nofollow">
-#                                             <p class="text">Iseehear.com</p>
-#                                         </a>
-#                                     </li>
-#                                     <li>
-#                                         <a href="https://www.softmouse.net" target="_blank" rel="nofollow">
-#                                             <p class="text">SoftMouse.NET</p>
-#                                         </a>
-#                                     </li>
-#                                     <li>
-#                                         <a href="http://www.softmousefaq.com" target="_blank" rel="nofollow">
-#                                             <p class="text">SoftMouseFAQ.com</p>
-#                                         </a>
-#                                     </li>
-#                                     <li>
-#                                         <a href="http://www.breedingservices.com" target="_blank" rel="nofollow">
-#                                             <p class="text">BreedingServices.com</p>
-#                                         </a>
-#                                     </li>
-#                                 </ul>
-#                             </div>
-
-#                             <div class="contactInfo">
-#                                 <h2 class="subCaption">Contact Information</h2>        
-#                                 <a href="https://iseehear.info/iseehear+contact.php" target="_blank">
-#                                     <button class="button">Contact Us</button>
-#                                 </a> 
-#                                 <p class="text">If you are experiencing an issue, please contact customer support.</p>
-#                                 <p class="text">Phone: +1 416-492-4358</p>
-#                                 <p class="text">Toll Free: 1 844 559 6322</p>
-#                             </div>
-#                         </div>
-#                         <a href="http://www.iseehear.com" target="_blank" rel="nofollow"> <img src="/amenitylab.org/img/iseehear-cloud-0005.png" class="img-responsive cloud-footer"></a>
-#                         <img src="/amenitylab.org/img/iseehear-health-check-0002.png" class="iseehearImg">
-#                         <div class="bottomLink">
-#                             <p class="text">2000 - 2019 Iseehear Inc. All rights reserved.</p>
-#                             <a target="_blank" href="http://www.iseehear.com/privacy.php" class="text" rel="nofollow">Privacy Policy</a> 
-#                             <p class="text">|</p> 
-#                             <a target="_blank" href="http://www.iseehear.com/terms+of+use.php" class="text" rel="nofollow">Terms of Use</a>
-#                         </div>
-#   </footer>
-#   '
- 
-        
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo
-  introMessage: sample
-#   navbar: name there
-  cname: amenitylab.org
-#   baseUrl: /test-upptime
-#   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
-#   name: Uptime
-  introTitle: Up Time Check!
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
-
 i18n:
-footer: '
+  footer: '
         <footer class="footer">
                         <div class="container">
                             <div class="contactInfo">
@@ -280,5 +201,24 @@ footer: '
                             <p class="text">|</p> 
                             <a target="_blank" href="http://www.iseehear.com/terms+of+use.php" class="text" rel="nofollow">Terms of Use</a>
                         </div>
-  </footer>
-  '
+    </footer>
+    '
+ 
+        
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo
+  introMessage: sample
+#   navbar: name there
+  cname: amenitylab.org
+#   baseUrl: /test-upptime
+#   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
+#   name: Uptime
+  introTitle: Up Time Check!
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
