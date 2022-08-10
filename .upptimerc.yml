@@ -144,8 +144,8 @@ status-website:
 <script src="js/scrol.js"></script>
 '
   
-i18n: 
-  footer: '
+
+footer: '
         <footer class="footer">
                         <div class="container">
                             <div class="contactInfo">
@@ -202,7 +202,7 @@ i18n:
                             <a target="_blank" href="http://www.iseehear.com/terms+of+use.php" class="text" rel="nofollow">Terms of Use</a>
                         </div>
     </footer>
-  '
+ '
  
         
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
