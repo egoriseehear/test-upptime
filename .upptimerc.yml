@@ -214,10 +214,10 @@ i18n:
 #   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
 #   name: Uptime
   introTitle: Up Time Check!
-#     - title: Status
-#       href: /
-#     - title: GitHub
-#       href: https://github.com/$OWNER/$REPO
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
