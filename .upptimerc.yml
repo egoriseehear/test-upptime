@@ -214,6 +214,7 @@ i18n:
 #   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
 #   name: Uptime
   introTitle: Up Time Check!
+  navbar:
     - title: Status
       href: /
     - title: GitHub
