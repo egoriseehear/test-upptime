@@ -143,10 +143,8 @@ status-website:
 </nav>
 <script src="js/scrol.js"></script>
 '
-  
-i18n:
-  footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org)
-        '
+
+footer: '
         <footer class="footer">
                         <div class="container">
                             <div class="contactInfo">
@@ -202,8 +200,8 @@ i18n:
                             <p class="text">|</p> 
                             <a target="_blank" href="http://www.iseehear.com/terms+of+use.php" class="text" rel="nofollow">Terms of Use</a>
                         </div>
-    </footer>
-    '
+</footer>
+'
  
         
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
