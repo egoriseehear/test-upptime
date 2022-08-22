@@ -143,6 +143,11 @@ status-website:
 </nav>
 <script src="js/scrol.js"></script>
 ' 
+
+i18n:
+  activeIncidents: Iseehear Inc.
+  allSystemsOperational: All systems are operational
+  # ...
         
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo
