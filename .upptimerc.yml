@@ -68,7 +68,7 @@ status-website:
 <div class="wrapper">
 <nav class="navbar navbar-expand-lg navbar-light myHeader">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img class="logo" src="/amenitylab.org/img/iseehear-logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="/"><img class="logo" src="http://amenitylab.org/img/iseehear-logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -149,15 +149,15 @@ status-website:
   introMessage: Iseehear Inc.
 #   navbar: name there
   cname: amenitylab.org
-  baseUrl: /
+#   baseUrl: /
   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
 #   name: Uptime
   introTitle: Up Time Check!
   navbar:
     - title: Status
       href: /
-  i18n:
-    footer: Copyright Iseehear Life Sciences Inc.
+
+  footer: Copyright Iseehear Life Sciences Inc.
   
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
