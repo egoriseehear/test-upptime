@@ -49,6 +49,9 @@ status-website:
   body {
   font-family: "Mulish", sans-serif !important;
   }
+  logo {
+    max-width: 8rem;
+  }
   '
 
   customBodyHtml: '
