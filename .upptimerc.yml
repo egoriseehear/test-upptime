@@ -50,7 +50,7 @@ status-website:
   font-family: "Mulish", sans-serif !important;
   }
   logo {
-    max-width: 8rem;
+    max-width: 20rem;
   }
   '
 
