@@ -150,7 +150,7 @@ status-website:
 #   navbar: name there
   cname: amenitylab.org
 #   baseUrl: /
-  logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
+#   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
 #   name: Uptime
   introTitle: Up Time Check!
   navbar:
