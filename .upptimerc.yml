@@ -143,24 +143,21 @@ status-website:
 </nav>
 <script src="js/scrol.js"></script>
 ' 
-
-i18n:
-  activeIncidents: Iseehear Inc.
-  allSystemsOperational: All systems are operational
-  # ...
         
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo
-  introMessage: sample
+  introMessage: Iseehear Inc.
 #   navbar: name there
   cname: amenitylab.org
-#   baseUrl: /test-upptime
-#   logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
+  baseUrl: /
+  logoUrl: https://iseehear.com/img/iseehear-turning-data-into-scientific-insight-0003.png
 #   name: Uptime
   introTitle: Up Time Check!
   navbar:
     - title: Status
       href: /
-
+  i18n:
+    footer: Copyright Iseehear Life Sciences Inc.
+  
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
