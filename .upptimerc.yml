@@ -68,7 +68,7 @@ status-website:
 <div class="wrapper">
 <nav class="navbar navbar-expand-lg navbar-light myHeader">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img class="logo" src="https://amenitylab.org/img/iseehear-logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="/"><img class="logo" src="https://amenitylab.org/img/iseehear-00004.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -158,7 +158,7 @@ status-website:
       href: /
 
 i18n:
- footer: This page is [created]($REPO) @2022-07-01 by [51Sec](www.51sec.org), powered by [Upptime](https://upptime.js.org)
+ footer: This page is [created]($REPO) @2022 by [Iseehear Inc.](www.iseehear.com), powered by [Iseehear Inc.](https://iseehear.com)
   
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
