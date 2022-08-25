@@ -52,6 +52,9 @@ status-website:
   logo {
     max-width: 20rem;
   }
+  .r.svelte-4o16l6 {
+    display: none !important;
+  }
   '
 
   customBodyHtml: '
