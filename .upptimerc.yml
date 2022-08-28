@@ -55,6 +55,8 @@ status-website:
   .r.svelte-4o16l6 {
     display: none !important;
   }
+  .myHeader {
+    border-bottom: 2px solid lightblue !important;
   '
 
   customBodyHtml: '
