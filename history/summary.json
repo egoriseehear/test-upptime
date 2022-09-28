@@ -4,19 +4,19 @@
     "url": "http://www.iseethere.com",
     "icon": "https://favicons.githubusercontent.com/www.iseethere.com",
     "slug": "iseethere-com",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 568,
-    "timeDay": 343,
-    "timeWeek": 655,
-    "timeMonth": 593,
-    "timeYear": 568,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.47%",
+    "uptimeWeek": "99.78%",
+    "uptimeMonth": "99.95%",
+    "uptimeYear": "99.97%",
+    "time": 570,
+    "timeDay": 533,
+    "timeWeek": 663,
+    "timeMonth": 597,
+    "timeYear": 570,
     "dailyMinutesDown": {
-      "2022-09-28": 0
+      "2022-09-28": 22
     }
   }
 ]
