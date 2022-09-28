@@ -4,7 +4,7 @@
     "url": "http://www.iseethere.com",
     "icon": "https://favicons.githubusercontent.com/www.iseethere.com",
     "slug": "iseethere-com",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -13,8 +13,10 @@
     "time": 568,
     "timeDay": 343,
     "timeWeek": 655,
-    "timeMonth": 582,
+    "timeMonth": 593,
     "timeYear": 568,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-09-28": 0
+    }
   }
 ]
