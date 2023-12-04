@@ -4,18 +4,19 @@
     "url": "http://www.iseethere.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.iseethere.com.ico",
     "slug": "iseethere-com",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 522,
+    "time": 521,
     "timeDay": 802,
     "timeWeek": 602,
     "timeMonth": 455,
     "timeYear": 490,
     "dailyMinutesDown": {
+      "2023-12-04": 0,
       "2023-06-29": 21
     }
   }
